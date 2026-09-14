@@ -31,7 +31,8 @@ Each note should cover:
   official one, the note must say so explicitly and mark confidence as low
   rather than presenting it as confirmed.
 - **Affected reference file(s)** — which of `rbi-digital-lending-directions-2025.md`,
-  `rbi-cobranding-card-directions-2025.md`, or `dpdp-act-2023.md` this touches.
+  `rbi-cobranding-card-directions-2025.md`, `dpdp-act-2023.md`, or
+  `dpdp-rules-2025.md` this touches.
 - **Suggested edit** — the actual text/diff to make it easy for Kaushal (or
   a future Claude session) to apply, if approved.
 - **Confidence** — High / Medium / Low, same scale as the guardrail-reviewer
