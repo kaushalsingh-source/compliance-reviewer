@@ -107,6 +107,32 @@ Expect it to print the 3 tools, the 3 resources, sample output from each
 tool call (including an alias lookup and a deliberate bad-topic call to
 confirm graceful error handling), and finish with `ALL CHECKS PASSED`.
 
+## Getting the actual Skill, not just the data
+
+This repo's `references/` + `server.py` only gives you *raw lookup tools* —
+enough to fetch or search the regulation text, but not the guided review
+behavior (how to read a spec, the output format, the "never assert a
+verdict, always say confirm with legal" rule). That guided behavior is a
+separate Claude Code **Skill**, kept at `claude-skill/SKILL.md` in this same
+repo so it travels with the data it depends on instead of living only on
+one person's machine.
+
+To get it: copy `claude-skill/SKILL.md` into your own
+`~/.claude/skills/compliance-guardrail-reviewer/SKILL.md` (create that
+folder if it doesn't exist):
+
+```bash
+mkdir -p ~/.claude/skills/compliance-guardrail-reviewer
+cp claude-skill/SKILL.md ~/.claude/skills/compliance-guardrail-reviewer/SKILL.md
+```
+
+This skill file assumes the `compliance-reviewer` MCP server (this repo,
+registered per the steps below) is connected — it grounds every review in
+the MCP server's tools, not local files, so it works identically for
+everyone using it. Do this step in addition to, not instead of, the MCP
+server setup below — the skill is the "how to review," the server is the
+"what the rules actually say."
+
 ## Adding this to Claude Code
 
 Both Kaushal and a colleague do this **on their own machine**, against
