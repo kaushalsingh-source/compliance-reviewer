@@ -4,7 +4,7 @@ compliance-reviewer-mcp
 
 MCP server that serves POP's fintech compliance reference material —
 RBI Digital Lending Directions 2025, RBI co-branded card Directions 2025,
-and the DPDP Act 2023 — as a shared, single-source-of-truth grounding set.
+the DPDP Act 2023, and the DPDP Rules 2025 — as a shared, single-source-of-truth grounding set.
 
 This exists so the reference text lives in ONE place (this repo's
 references/ folder) instead of drifting across copies of a personal
@@ -59,6 +59,19 @@ TOPICS: dict[str, dict] = {
         ),
         "aliases": ["dpdp act", "data protection", "privacy", "personal data"],
     },
+    "dpdp_rules": {
+        "filename": "dpdp-rules-2025.md",
+        "description": (
+            "Digital Personal Data Protection Rules, 2025 (G.S.R. 846(E), notified 13 Nov 2025) — "
+            "the subordinate instrument operationalizing the DPDP Act: 1-year retention of personal "
+            "data/traffic data/logs (Rule 8(3)), 90-day grievance-redressal SLA (Rule 14(3)), breach-"
+            "notification mechanics (Rule 7), Consent Manager rules, phased commencement dates."
+        ),
+        "aliases": [
+            "dpdp rules", "dpdp rules 2025", "data protection rules", "retention rules",
+            "retention period", "grievance sla", "personal data retention",
+        ],
+    },
 }
 
 
@@ -97,7 +110,7 @@ mcp = FastMCP(
     instructions=(
         "Serves the reference material behind POP's compliance-guardrail-reviewer "
         "skill: RBI Digital Lending Directions 2025, RBI co-branded card Directions "
-        "2025, and the DPDP Act 2023. Use list_compliance_topics to see what's "
+        "2025, the DPDP Act 2023, and the DPDP Rules 2025. Use list_compliance_topics to see what's "
         "available, get_compliance_reference to pull a full reference document, "
         "and search_compliance_reference to find specific clauses by keyword. "
         "This tool only surfaces regulatory text for grounding — it never issues "

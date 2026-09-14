@@ -1,5 +1,7 @@
 # RBI (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025
 
+**Verified 2026-09-14** — the base 2025 Directions below were re-confirmed current, and a new 2026 Amendment (see bottom section) was verified directly against the live rbi.org.in notification page plus a verbatim secondary reproduction. Not stale as of this pass.
+
 Source: RBI/DOR/2025-26/155, issued 28 November 2025. Official: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13155 (PDF: https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF) — fetched and cross-checked 2026-08-21. **This replaced the 2022 Master Direction on Credit Card and Debit Card Issuance and Conduct (Para 93 repeals the old framework for commercial banks).** If any doc under review still cites the "2022 Master Direction," that version is stale — flag it.
 
 ## Para 8 — Board-approved policy
@@ -29,4 +31,16 @@ A closure request must be honored within 7 working days of dues being settled; m
 Grievance redressal officer contact details must be publicized, including on billing statements (83). Unresolved complaints after 30 days can escalate to the RBI Ombudsman, which can award compensation for financial loss, harassment, or mental anguish (85).
 
 ---
-**How to use this file:** the highest-value checks for a cobrand card flow are Para 61-62 (is the partner touching data/processes it shouldn't?) and Para 55/58 (is the co-branding relationship and revenue-share disclosed where it should be?). Cite the exact para. This is a summary as fetched 2026-08-21 — if a spec cites the old 2022 Master Direction, that's itself a flag, since it was repealed by this 2025 version.
+
+## 2026 amendment — Para 23(5): penal charges / "past due" reporting only after 3 days overdue
+
+Source: **RBI/2026-27/29**, DOR.STR.REC.11/24-01-041/2026-27, "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) — Amendment Directions, 2026," issued **27 April 2026**. Official: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13388&Mode=0 — cross-checked 2026-09-14 against a verbatim secondary reproduction (taxguru.in) for the exact clause text; both sources agree on the notification number, date, amended paragraph, and quoted language below. This amends **Para 23(5)** of the 2025 Directions above (a paragraph not otherwise excerpted in this file before now).
+
+Exact amended clause: *"Card-issuers shall report a credit card account as 'past due' to credit information companies (CICs) or levy penal charges, viz. late payment charges and other related charges, if any, only when a credit card account remains 'past due' for more than three days."* Separately: *"Late payment charges and other related charges shall be levied, only on the outstanding amount after the due date, and not on the total amount due."*
+
+Important nuance — the 3-day window is **not** a due-date extension: days-past-due and the charge calculation still run from the original due date on the cardholder's statement. The 3 days only gate (a) when the account gets flagged "past due" to CICs, and (b) when penal/late-payment charges start being *applied*. And the late-fee base changes from "total amount due" to "outstanding amount after the due date."
+
+**Effective date: 1 April 2027.** This is not yet in force — a spec targeting a ship date before 1 April 2027 may correctly still follow the pre-amendment (immediate past-due / full-amount-due) behavior; flag if a spec claims this 3-day/outstanding-amount behavior applies before that date, and equally flag if a spec launching after 1 April 2027 hasn't built for it.
+
+---
+**How to use this file:** the highest-value checks for a cobrand card flow are Para 61-62 (is the partner touching data/processes it shouldn't?) and Para 55/58 (is the co-branding relationship and revenue-share disclosed where it should be?). For late-fee/past-due logic, check against the Para 23(5) amendment above and its 1 April 2027 effective date. Cite the exact para. This is a summary as fetched 2026-08-21 (base Directions) and 2026-09-14 (2026 amendment) — if a spec cites the old 2022 Master Direction, that's itself a flag, since it was repealed by this 2025 version.

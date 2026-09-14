@@ -1,5 +1,7 @@
 # Digital Personal Data Protection Act, 2023 (DPDP Act)
 
+**Verified 2026-09-14** — re-confirmed current on this pass. Note: the operational specifics implementing this Act (retention periods, grievance-response SLA, breach-notification mechanics, Consent Manager rules) live in a **separate, subordinate instrument** — see `dpdp-rules-2025.md` for the Digital Personal Data Protection Rules, 2025 (G.S.R. 846(E), notified 13 Nov 2025) — do not assume this Act's text alone contains those numbers.
+
 Source: Act came into force 11 Aug 2023; DPDP Rules 2025 implement it. Official Act text: meity.gov.in. Section structure cross-checked against dpdpa.com's chapter index 2026-08-21 — note a secondary source initially mislabeled Section 5 as "Significant Data Fiduciary"; the verified mapping below is correct. If in doubt about a section number, treat it as needing verification rather than trusting a single source.
 
 ## Chapter 2 — Obligations of Data Fiduciary (Sections 4-10)

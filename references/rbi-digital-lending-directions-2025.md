@@ -1,5 +1,7 @@
 # RBI (Digital Lending) Directions, 2025
 
+**Verified 2026-09-14** — base Directions re-confirmed current. Also checked and ruled out a rumored "1 March 2026 Master Direction supplement" — see change-history note at the bottom; not added to this file because it could not be verified against any official rbi.org.in source.
+
 Source: RBI/2025-26/36, DOR.STR.REC.19/21.07.001/2025-26, effective 8 May 2025 (Para 6 multi-lender provisions effective 1 Nov 2025; Para 17 CIMS reporting effective 15 Jun 2025). Official notification: https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12848 — fetched and cross-checked 2026-08-21. This supersedes the repealed 2022 Digital Lending Guidelines circular; if any other document still cites the 2022 circular, that's itself worth flagging.
 
 ## Para 5 — LSP due diligence
@@ -25,6 +27,12 @@ RE and LSP must each designate a nodal grievance redressal officer with contact 
 
 ## Para 17 — CIMS reporting
 RE must report every DLA on RBI's CIMS portal (format per Annex I): DLA name, owner, platform, grievance officer, RE website link (17.i), kept updated as DLAs are deployed/retired (17.ii). Chief Compliance Officer must certify DLA compliance (17.iii-iv). Original deadline was 15 June 2025.
+
+---
+
+## Change history / verification notes
+
+**2026-09-14 — checked and NOT adding: rumored "1 March 2026 Master Direction supplement."** A preliminary web search surfaced claims (low-quality SEO/content-mill sites — corpusjurislegal.com, incorpx.io, openmalo.com, and a testbook.com quiz item — none citing an actual RBI circular number) of a "revised digital lending guidelines" issued 1 March 2026 as a "Master Direction supplement" to these 2025 Directions. This could **not** be verified: RBI's own notification/circular index for March 2026 shows no such item, and no source could produce a real DOR/notification number or an actual rbi.org.in/rbidocs.rbi.org.in link. The real RBI regulatory activity in this space in 2026 is a **different, separate instrument** — draft (Feb 2026) → revised draft (20 May 2026) → final "Reserve Bank of India (Commercial Banks – Responsible Business Conduct) — Fourth Amendment Directions, 2026" (notified 6 August 2026, effective 1 January 2027), covering loan-recovery conduct, recovery-agent certification, and device-locking on financed phones/tablets. That instrument is about recovery/collections conduct generally (not specific to digital lending/LSP flows), is not a supplement to the May 2025 Digital Lending Directions, and is out of scope for this file. **Conclusion: do not re-investigate the "1 March 2026 digital lending supplement" claim identically next time — it appears to be a search artifact/hallucination, not a real regulatory instrument.** If POP later needs the Responsible Business Conduct / recovery-agent rules for a collections flow, that would warrant its own separate reference file, verified fresh from rbi.org.in.
 
 ---
 **How to use this file:** cite the specific para number when flagging a gap — never just "RBI digital lending rules." If a spec's data-consent design doesn't clearly map to Para 12-13's granular per-category consent, or its KFS timing doesn't match Para 8, that's flaggable. This is a summary grounded in the official notification text as fetched 2026-08-21 — RBI amends these periodically; if the spec being reviewed cites a materially different rule, flag the discrepancy for a human to verify against the live rbi.org.in text rather than assuming either source is right.
